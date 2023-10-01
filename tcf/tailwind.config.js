@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-bg' : "url('/assets/TCF_A3_Poster.png')"
+      }
+    },
   },
   plugins: [],
 }
